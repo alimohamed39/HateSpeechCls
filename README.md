@@ -123,21 +123,7 @@ Borderline cases
 
 Adversarial phrasing
 
-3. Manual Evaluation, Not Just Accuracy
 
-Accuracy alone is misleading.
-
-Manual testing revealed weaknesses that accuracy did not show.
-
-Metrics like:
-
-Precision
-
-Recall
-
-F1 Score
-
-are also important.
 
 4. Reduce Dataset Bias
 
@@ -147,7 +133,7 @@ If the dataset contains too many obvious examples like:
 
 the model learns shortcuts instead of real understanding.
 
-Conclusion
+**Conclusion**
 
 This project demonstrates both the power and limitations of BERT for hate speech detection.
 
@@ -161,7 +147,7 @@ It relies heavily on keywords
 
 It may be overfitting
 
-Hate speech detection remains a difficult problem that requires:
+**Hate speech detection remains a difficult problem that requires:**
 
 Better datasets
 
@@ -169,14 +155,5 @@ More robust evaluation
 
 Careful interpretation of results
 
-This project was a valuable learning experience in understanding how NLP models behave beyond simple accuracy metrics.
+**This project was a valuable learning experience in understanding how NLP models behave beyond simple accuracy metrics.**
 
-Future Work
-
-Train on multiple hate speech datasets
-
-Try larger models (RoBERTa, DeBERTa)
-
-Use adversarial training
-
-Perform deeper error analysis
